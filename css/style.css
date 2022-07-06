@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* ROOT CSS */
+section {
+  padding: 100px 100px;
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primary-color {
+  color: orange !important;
+}
+.secondary-color {
+  color: #575757 !important;
+}
+.half-container {
+  width: 50%;
+}
+.title {
+  font-size: 42px;
+}
+.para {
+  padding: 10px 0 30px;
+}
+.button {
+  padding: 12px 24px;
+  border-radius: 35px;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(404deg, orange, orangered);
+}
+.button:hover {
+  background-image: linear-gradient(404deg, orangered, orange);
+}
+/* ROOT CSS */
+
+/* HEADER AREA START */
+.header-area .banner-title {
+  font-size: 46px;
+  font-weight: bold;
+}
+.header-area .banner-para {
+  padding: 10px 0 30px;
+}
+.header-area .banner-img img {
+  width: 100%;
+}
+/* HEADER AREA END */
+
+/* ABOUT AREA START */
+.about-area .about-img img {
+  width: 100%;
+}
+/* ABOUT AREA END */
